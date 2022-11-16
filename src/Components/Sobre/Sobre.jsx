@@ -13,7 +13,7 @@ const Sobre = () => {
         <p>Um pouco sobre a nossa história</p>
         </div>
 
-        <div className={[styles.conteudoPrincipal, "container", "grid"].join(' ')}>
+        <div className={[styles.conteudoPrincipalSobre, "container", "grid"].join(' ')}>
           <div className={styles.item}>
             <img src={Destino} alt="destinos" />
             <h3>1200+ Destinos</h3>

@@ -31,7 +31,7 @@
 }
 
 @media screen and (min-width: 480px) {
-    .conteudoPrincipal {
+    .conteudoPrincipalSobre {
         grid-template-columns: repeat(3, 1fr);
         gap: 3rem;
     }
