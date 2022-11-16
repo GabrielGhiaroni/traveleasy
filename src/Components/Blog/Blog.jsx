@@ -72,7 +72,7 @@ const Blog = () => {
                     <p>{descricaoPost}</p>
                   </div>
 
-                  <a href="#" className='flex'>Saiba mais <BsArrowRightShort className={[styles.icone, "icone"].join(' ')}/> </a>
+                  <a href="#home" className='flex'>Saiba mais <BsArrowRightShort className={[styles.icone, "icone"].join(' ')}/> </a>
                 </div>
               )
             })

@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Populares.module.css';
-import { BsArrowLeftShort, BsArrowRightShort } from 'react-icons/bs';
+import { BsArrowRightShort } from 'react-icons/bs';
 import Londres from '../../Assets/londres.jpg';
 import Amsterda from '../../Assets/amsterda.jpg';
 import Veneza from '../../Assets/veneza.jpg';

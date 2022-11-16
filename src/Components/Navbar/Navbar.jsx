@@ -26,7 +26,7 @@ const Navbar = () => {
     <section className={styles.navbarSection}>
       <div className={backgroundHeader}>
           <div className={styles.logoDiv}>
-            <a href="#" className={styles.logo}>
+            <a href="#home" className={styles.logo}>
               <h1 className='flex'><SiYourtraveldottv className={[iconeBranco, 'icone'].join(' ')} style={{marginRight: '.5rem'}}/>TravelEasy</h1>
             </a>
           </div>
@@ -51,8 +51,8 @@ const Navbar = () => {
                 </li>
 
                 <div className={[styles.headerBtns, "flex"].join(' ')}>
-                  <button className={[styles.btn, styles.loginBtn, "btn"].join(' ')}><a href="#">Login</a></button>
-                  <button className={[styles.btn, "btn"].join(' ')}><a href="#">Cadastre-se</a></button>
+                  <button className={[styles.btn, styles.loginBtn, "btn"].join(' ')}><a href="#home">Login</a></button>
+                  <button className={[styles.btn, "btn"].join(' ')}><a href="#home">Cadastre-se</a></button>
                 </div>
               </ul>
 

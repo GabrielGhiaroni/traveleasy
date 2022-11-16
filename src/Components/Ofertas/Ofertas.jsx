@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './Ofertas.module.css';
 import { MdBathtub, MdKingBed, MdLocationOn } from 'react-icons/md';
 import { FaWifi, FaDog, FaThermometerHalf } from 'react-icons/fa';
-import { GiSoap, GiFireplace } from 'react-icons/gi';
+import { GiFireplace } from 'react-icons/gi';
 import { IoIosSnow } from 'react-icons/io';
 import { BsArrowRightShort } from 'react-icons/bs';
 import { TbToolsKitchen } from 'react-icons/tb';

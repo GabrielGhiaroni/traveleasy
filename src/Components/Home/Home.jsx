@@ -12,7 +12,7 @@ const Home = () => {
           <p className={styles.subtitulo}>
             Conheça o destino dos seus sonhos por preços acessíveis!
           </p>
-          <button className={[styles.homeBtn, "btn"].join(' ')}><a href="#">Explorar</a></button>
+          <button className={[styles.homeBtn, "btn"].join(' ')}><a href="#home">Explorar</a></button>
         </div>
 
         <div className={[styles.homeCard, "grid"].join(' ')}>
@@ -31,7 +31,7 @@ const Home = () => {
             <input type="text" placeholder='R$400 - R$800'/>
           </div>
 
-          <button className={[styles.btnHomeCard, "btn"].join(' ')}><a href="#">Buscar</a></button>
+          <button className={[styles.btnHomeCard, "btn"].join(' ')}><a href="#home">Buscar</a></button>
         </div>
       </div>
     </section>

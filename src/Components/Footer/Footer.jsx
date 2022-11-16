@@ -22,14 +22,14 @@ const Footer = () => {
 
         <div className={styles.logoDiv}>         
           <div className={[styles.socials, "flex"].join(' ')}>
-            <a href="https://gabrielghiaroni.com/" target="_blank"><AiOutlineGlobal className={[styles.icone, 'icone'].join(' ')}/></a>
-            <a href="https://www.linkedin.com/in/gabrielghiaroni/" target="_blank"><GrLinkedinOption className={[styles.icone, 'icone'].join(' ')}/></a>
-            <a href="https://api.whatsapp.com/send?phone=5521983617775" target="_blank"><BsWhatsapp className={[styles.icone, 'icone'].join(' ')}/></a>
-            <a href="https://github.com/GabrielGhiaroni" target="_blank"><FiGithub className={[styles.icone, 'icone'].join(' ')}/></a>    
+            <a href="https://gabrielghiaroni.com/"><AiOutlineGlobal className={[styles.icone, 'icone'].join(' ')}/></a>
+            <a href="https://www.linkedin.com/in/gabrielghiaroni/"><GrLinkedinOption className={[styles.icone, 'icone'].join(' ')}/></a>
+            <a href="https://api.whatsapp.com/send?phone=5521983617775"><BsWhatsapp className={[styles.icone, 'icone'].join(' ')}/></a>
+            <a href="https://github.com/GabrielGhiaroni"><FiGithub className={[styles.icone, 'icone'].join(' ')}/></a>    
           </div>
 
           <div className={styles.logoFooter}>
-            <a href="#" className={[styles.logo, "flex"].join(' ')}>
+            <a href="#home" className={[styles.logo, "flex"].join(' ')}>
               <h1 className='flex'><SiYourtraveldottv className={[styles.logoTravelEasy, 'icone'].join(' ')}/> TravelEasy</h1>
             </a>
           </div>
