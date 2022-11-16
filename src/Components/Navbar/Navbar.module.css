@@ -1,0 +1,151 @@
+.header {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    width: 100%;
+    padding: 1rem;
+    z-index: 10;
+}
+
+.logo {
+    color: var(--white);
+    font-weight: 500;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon {
+    margin-right: .5rem;
+}
+
+.iconeBranco {
+    color: var(--white);
+    transition: 0s;
+}
+
+.headerAtivo {
+    background: var(--primaria);
+    transition: 0s;
+}
+
+@media screen and (max-width: 820px) {
+    .navBar {
+        background: var(--bgCinza);
+        position: absolute;
+        padding: 1rem;
+        width: 100%;
+        top: 0;
+        left: -100%;
+        box-shadow: 0 2px 4px rgba(209, 209, 209, 0.904);
+        transition: left 1s;
+        z-index: 10;
+        height: 100vh;
+    }
+
+    .navLists {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        width: 100%;
+    }
+
+    .navItem {
+        padding: .5rem 0;
+    }
+
+    .navLink {
+        color: var(--corTexto);
+        font-size: .9rem;
+        font-weight: 600;
+    }
+
+    .navLink:hover {
+        color: var(--primaria);
+    }
+
+    .headerBtns {
+        flex-direction: column;
+    }
+
+    .btn {
+        margin-top: 1rem;
+    }
+
+    .loginBtn {
+        background: none;
+        border: 1px solid var(--primaria);
+    }
+
+    .loginBtn a {
+        color: var(--primaria);
+    }
+
+    .loginBtn:hover {
+        background: var(--hover);
+    }
+
+    .loginBtn:hover a {
+        color: var(--white);
+    }
+
+    .fecharNavbar {
+        position: absolute;
+        top: 1rem;
+        right: 1.5rem;
+    }
+
+    .fecharNavbar:hover {
+        color: var(--hover);
+    }
+
+    .navbarAtivo {
+        left: 0;
+    }
+
+    .iconeMenu {
+        color: var(--white);
+        font-size: 1.5rem;
+    }
+
+    .iconeMenu:hover {
+        color: var(--primaria);
+    }
+}
+
+@media screen and (min-width: 1000px) {
+
+    .header {
+        padding: 1.5rem 2rem;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .toggleNavbar,
+    .fecharNavbar {
+        display: none;
+    }
+
+    .navLists {
+        font-weight: 500;
+    }
+
+    .navItem a {
+        color: var(--white);
+    }
+
+    .navItem:first-child {
+        margin-left: 1.5rem;
+    }
+
+    .navItem:not(:last-child) {
+        margin-right: 2.5rem;
+    }
+
+    .headerBtns {
+        gap: 1rem;
+    }
+}

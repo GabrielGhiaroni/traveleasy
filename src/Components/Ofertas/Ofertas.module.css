@@ -1,0 +1,99 @@
+.conteudoPrincipal {
+    gap: 1rem;
+}
+
+.oferta {
+    border-radius: 1rem;
+    overflow: hidden;
+    padding: .5rem;
+    box-shadow: 0 2px 8px 4px rgba(178, 178, 178, 0.25);
+}
+
+.iconeOfertas {
+    font-size: 1.5rem;
+}
+
+small {
+    font-weight: 600;
+    color: var(--corTexto);
+}
+
+.destinoImagem {
+    border-radius: 1rem;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+
+}
+
+.destinoImagem img {
+    height: 100%;
+}
+
+.desconto {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    padding: 5px 10px;
+    background-color: var(--primaria);
+    color: var(--white);
+    font-size: .8rem;
+    border-radius: 3rem;
+    font-weight: 500;
+}
+
+.ofertaDescricao {
+    padding: 1rem;
+}
+
+.ofertaPreco {
+    justify-content: space-between;
+}
+
+h4 {
+    color: var(--black);
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.ofertaStatus {
+    padding: 5px 10px;
+    color: var(--white);
+    font-weight: 600;
+    background: var(--hover);
+    font-size: .7rem;
+    border-radius: 3rem;
+}
+
+.ofertaComodidades {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 1rem 0;
+    gap: .5rem
+}
+
+.comodidade {
+    padding: 5px 10px;
+    border-radius: 5px;
+    background: var(--bgCinza);
+    gap: .5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.ofertaDescricao button {
+    margin-top: 1rem;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    padding: 0.6rem;
+    font-weight: 600;
+    gap: .5rem;
+}
+
+@media screen and (min-width: 480px) {
+    .destinoImagem img {
+        max-height: 200px;
+    }
+}

@@ -1,0 +1,178 @@
+.populares {
+    padding-top: 13rem;
+}
+
+.secHeader {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: auto;
+    gap: 1rem;
+}
+
+.textoDiv {
+    text-align: center;
+}
+
+.titulo {
+    color: var(--black);
+    line-height: 1.5rem;
+    padding-bottom: .5rem;
+}
+
+p {
+    font-size: .9rem;
+    color: var(--corTexto);
+    font-weight: 400;
+}
+
+.iconesDiv {
+    gap: 0.5rem;
+}
+
+.icone {
+    padding: 0.5rem;
+    background: var(--bgCinza);
+    border-radius: 50%;
+    font-size: 2.5rem;
+}
+
+.icone:hover {
+    background: var(--primaria);
+    color: var(--white);
+    transition: 0s;
+}
+
+.conteudoPrincipal {
+    padding: 2rem 0;
+    gap: 1rem;
+}
+
+.localDestino {
+    overflow: hidden;
+    border-radius: 1rem;
+    box-shadow: 0 2px 8px 2px rgba(178, 178, 178, 0.334);
+}
+
+.localDestinoImagem {
+    height: 200px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.localDestino img {
+    height: 100%;
+    width: 100%;
+}
+
+.localDestinoInfo {
+    position: absolute;
+    display: flex;
+    align-items: flex-start;
+    padding: 0;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    bottom: 0;
+}
+
+.localDestinoInfo:hover {
+    overflow: visible;
+    padding: 1rem 1.5rem;
+    height: 100%;
+}
+
+.localDestinoInfo h3 {
+    color: var(--white);
+    font-weight: 600;
+}
+
+.localDestinoInfo p {
+    color: var(--white);
+    opacity: .7;
+    font-size: .9rem;
+}
+
+.localDestinoIcone {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    padding: .5rem;
+    background: var(--primaria);
+    font-size: 2.5rem;
+    border-radius: 50%;
+    color: var(--white);
+    transition: .3s ease;
+}
+
+.localDestinoIcone:hover {
+    background: var(--hover);
+    color: var(--white);
+}
+
+.localDestinoFooter {
+    padding: 1rem;
+}
+
+.localDestinoFooterNumero {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--black);
+    position: relative;
+    width: max-content;
+}
+
+.localDestinoFooterNumero::after {
+    content: '';
+    position: absolute;
+    background: var(--primaria);
+    top: 45%;
+    right: -160%;
+    height: 5px;
+    width: 2.5rem;
+    border-radius: 1rem;
+}
+
+.localDestinoTexto {
+    justify-content: space-between;
+}
+
+.localDestinoTexto h6 {
+    color: var(--black);
+    font-size: .9rem;
+}
+
+.flex {
+    font-size: 1rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    transform: translateY(5px);
+}
+
+.nomeMarca::before {
+    content: '';
+    display: block;
+    position: absolute;
+    background: var(--primaria);
+    height: 1rem;
+    width: .2rem;
+    right: 110%;
+    top: 18%;
+}
+
+@media screen and (max-height: 740px) {
+    .populares {
+        padding-top: 18rem;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    .textoDiv {
+        margin: auto;
+    }
+}
