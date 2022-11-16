@@ -35,24 +35,24 @@ const Navbar = () => {
           <div className={menuAtivo}>
               <ul className={[styles.navLists, "flex"].join(" ")}>
                 <li className={styles.navItem}>
-                  <a href="#home" className={styles.navLink}>Home</a>
+                  <a href="#home" className={styles.navLink} onClick={() => setMenuAtivo(styles.navBar)}>Home</a>
                 </li>
                 <li className={styles.navItem}>
-                  <a href="#populares" className={styles.navLink}>Destinos</a>
+                  <a href="#populares" className={styles.navLink} onClick={() => setMenuAtivo(styles.navBar)}>Destinos</a>
                 </li>
                 <li className={styles.navItem}>
-                  <a href="#ofertas" className={styles.navLink}>Ofertas</a>
+                  <a href="#ofertas" className={styles.navLink} onClick={() => setMenuAtivo(styles.navBar)}>Ofertas</a>
                 </li>
                 <li className={styles.navItem}>
-                  <a href="#sobre" className={styles.navLink}>Sobre nós</a>
+                  <a href="#sobre" className={styles.navLink} onClick={() => setMenuAtivo(styles.navBar)}>Sobre nós</a>
                 </li>
                 <li className={styles.navItem}>
-                  <a href="#blog" className={styles.navLink}>Blog</a>
+                  <a href="#blog" className={styles.navLink} onClick={() => setMenuAtivo(styles.navBar)}>Blog</a>
                 </li>
 
                 <div className={[styles.headerBtns, "flex"].join(' ')}>
-                  <button className={[styles.btn, styles.loginBtn, "btn"].join(' ')}><a href="#home">Login</a></button>
-                  <button className={[styles.btn, "btn"].join(' ')}><a href="#home">Cadastre-se</a></button>
+                  <button className={[styles.btn, styles.loginBtn, "btn"].join(' ')} onClick={() => setMenuAtivo(styles.navBar)}><a href="#home">Login</a></button>
+                  <button className={[styles.btn, "btn"].join(' ')} onClick={() => setMenuAtivo(styles.navBar)}><a href="#home">Cadastre-se</a></button>
                 </div>
               </ul>
 
