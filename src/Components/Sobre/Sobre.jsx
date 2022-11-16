@@ -15,19 +15,19 @@ const Sobre = () => {
 
         <div className={[styles.conteudoPrincipalSobre, "container", "grid"].join(' ')}>
           <div className={styles.item}>
-            <img src={Destino} alt="destinos" />
+            <img src={Destino} alt="destinos" rel="preload"/>
             <h3>1200+ Destinos</h3>
             <p>Mais de 1.200 destinos em nossos pacotes para te ajudar a realizar seus sonhos</p>
           </div>
 
           <div className={styles.item}>
-            <img src={Apartamento} alt="apartamentos" />
+            <img src={Apartamento} alt="apartamentos" rel="preload"/>
             <h3>3500+ Acomodações</h3>
             <p>Rigorosamente vistoriadas, para proporcionar o máximo de conforto a você e sua família</p>
           </div>
 
           <div className={styles.item}>
-            <img src={Cliente} alt="clientes" />
+            <img src={Cliente} alt="clientes" rel="preload"/>
             <h3>40000+ Clientes</h3>
             <p>Que nos avaliam em 5 estrelas e nos recomendam a outros amigos e familiares</p>
           </div>
